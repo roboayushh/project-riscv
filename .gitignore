@@ -1,6 +1,18 @@
-# Verilator/Icarus build output
+# Verilator and simulator build output
 /build/
-obj_dir/
+/obj_dir/
+/obj_dir_*/
+
+# Generated simulator/compiler artifacts
+*.o
+*.a
+*.d
+*.so
+*.dylib
+*.exe
+*.out
+*.log
+coverage.dat
 
 # Waveform files
 *.vcd
@@ -8,14 +20,15 @@ obj_dir/
 *.lxt
 *.lxt2
 *.vzt
+*.ghw
 
-# Simulation output
-*.log
-*.out
-
-# macOS
+# macOS metadata
 .DS_Store
+._*
 
-# Editor temporary files
+# Editor and temporary files
+.vscode/
+.idea/
 *.swp
+*.swo
 *~
