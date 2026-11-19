@@ -1,0 +1,21 @@
+# Verilator/Icarus build output
+/build/
+obj_dir/
+
+# Waveform files
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vzt
+
+# Simulation output
+*.log
+*.out
+
+# macOS
+.DS_Store
+
+# Editor temporary files
+*.swp
+*~
